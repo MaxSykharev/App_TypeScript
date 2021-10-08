@@ -1,0 +1,28 @@
+.ant-form {
+    width: 35%;
+    background-color: white;
+    padding-bottom: 50px;
+    padding: 20px;
+}
+.sign-up-page {
+    text-align: -webkit-center;
+    background-color: #FFE4E1;
+    padding-bottom: 85px;
+    
+}   
+.sign-up-page h1 {
+    padding-top: 50px;
+}
+input#basic_firstName, #basic_lastName, #basic_phone, #basic_gender {
+    background-color: #FFE4E1;
+    border: none;
+}
+#basic_lastName text {
+    font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+color: #898989;
+}
+.ant-select-selector {
+    background-color: #FFE4E1 !important;
+}

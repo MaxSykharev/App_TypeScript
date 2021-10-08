@@ -1,0 +1,21 @@
+.products-page {
+  &_total {
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+  }
+    &__list {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 30px;
+      .ant-card {
+        width: 20%;
+      }
+    }
+  }
+  .ant-space {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 50vh;
+  }
