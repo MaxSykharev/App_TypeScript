@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Switch, Route, Redirect, useHistory } from 're
 import { CartPage } from './components/pages/Cart';
 import { DashboardPage } from './components/pages/Dashboard';
 import { OrderPage } from './components/pages/Order';
-import { ProductPage } from './components/pages/product';
+import { ProductPage } from './components/pages/product/index';
 import { ProductsPage } from './components/pages/Products';
 import { SignIn } from './components/pages/SignIn';
 import { SignUp } from './components/pages/SignUp';
@@ -16,6 +16,7 @@ const Routes = () => {
     if (!token) {
       history.push('/signIn');
     };
+		// eslint-disable-next-line react-hooks/exhaustive-deps
   }, [token]);
   return (
     <Switch>
